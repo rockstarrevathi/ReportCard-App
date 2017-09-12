@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
 
         ReportCard weather_data[] = new ReportCard[]
                 {
-                        new ReportCard(R.drawable.student, "English" , "A"),
-                        new ReportCard(R.drawable.student, "Science" , "A+"),
-                        new ReportCard(R.drawable.student, "Social" , "A"),
-                        new ReportCard(R.drawable.student, "Telugu" , "A")
+                        new ReportCard(R.drawable.english, "English" , "A"),
+                        new ReportCard(R.drawable.science, "Science" , "A+"),
+                        new ReportCard(R.drawable.social, "Social" , "A"),
+                        new ReportCard(R.drawable.telugu, "Telugu" , "A")
                 };
 
         ReportCardAdapter adapter = new ReportCardAdapter(this,
